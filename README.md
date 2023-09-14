@@ -11,4 +11,8 @@ Autoregressive Integrated Moving Average (ARIMA)
 Linear Regression
 Random Forest
 XGBoost. 
-Random Forest and XGBoost emerged as the best-performing models for this task.
+# Evaluation Criteria
+The models were evaluated using the Root Mean Squared Error (RMSE) metric, with Random Forest producing the lowest RMSE, followed by XGBoost and ARIMA(6,1,2).
+
+# Conclusion
+This project demonstrates the application of various time series forecasting models to predict sunspot activity. Random Forest and XGBoost models showed promising results for accurate predictions.
